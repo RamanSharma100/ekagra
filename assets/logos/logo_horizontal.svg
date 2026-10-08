@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
+  <defs>
+    <radialGradient id="hAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C8CFF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7C8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hRingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9AA7FF"/>
+      <stop offset="100%" stop-color="#6372E5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Icon Symbol -->
+  <g transform="translate(10, 10)">
+    <rect x="10" y="10" width="200" height="200" rx="46" fill="#0B0D10" stroke="#252B34" stroke-width="2"/>
+    <circle cx="110" cy="110" r="80" fill="url(#hAura)"/>
+    <circle cx="110" cy="110" r="62" fill="none" stroke="#28303E" stroke-width="3"/>
+    <path d="M 110 48 A 62 62 0 0 1 172 110" fill="none" stroke="#7C8CFF" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="110" cy="110" r="45" fill="none" stroke="url(#hRingGrad)" stroke-width="6"/>
+    <circle cx="110" cy="110" r="28" fill="#1A1E24" stroke="#9AA7FF" stroke-width="2.5"/>
+    <circle cx="110" cy="110" r="12" fill="#FFFFFF"/>
+    <circle cx="110" cy="110" r="6" fill="#7C8CFF"/>
+  </g>
+
+  <!-- Right Typography Wordmark -->
+  <g transform="translate(250, 40)">
+    <!-- Brand Name -->
+    <text x="0" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="74" font-weight="800" fill="#F3F4F6" letter-spacing="-1.5">
+      Ekagra
+    </text>
+
+    <!-- Sanskrit annotation / tag -->
+    <text x="250" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#7C8CFF" letter-spacing="1.5">
+      एकाग्र
+    </text>
+
+    <!-- Tagline -->
+    <text x="2" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#9CA3AF" letter-spacing="0.2">
+      Intelligent AI Focus &amp; Productivity Companion
+    </text>
+
+    <!-- Micro metadata -->
+    <text x="2" y="156" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#4FD18B" letter-spacing="0.5">
+      DARK-FIRST  •  VOICE-ENABLED  •  LOCAL PRIVACY
+    </text>
+  </g>
+</svg>
